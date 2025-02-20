@@ -1,0 +1,6 @@
+#!/bin/bash
+
+adduser hbrain
+usermod -aG sudo hbrain
+
+apt update && apt upgrade -y && apt install git sudo -y
