@@ -1,5 +1,3 @@
-#!/bin/bash
-
 adduser hbrain
 usermod -aG sudo hbrain
 
